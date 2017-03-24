@@ -15,6 +15,8 @@
 		FBF369181E84D11F00240453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF369171E84D11F00240453 /* Assets.xcassets */; };
 		FBF3691B1E84D11F00240453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF369191E84D11F00240453 /* LaunchScreen.storyboard */; };
 		FBF3692F1E84DB1000240453 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF3692E1E84DB1000240453 /* ServerManager.m */; };
+		FBF369381E851A1400240453 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF369371E851A1400240453 /* TableViewController.m */; };
+		FBF3693B1E851C0D00240453 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF3693A1E851C0D00240453 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		FBF3691C1E84D11F00240453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF3692D1E84DB1000240453 /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerManager.h; path = ../ServerManager.h; sourceTree = "<group>"; };
 		FBF3692E1E84DB1000240453 /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerManager.m; path = ../ServerManager.m; sourceTree = "<group>"; };
+		FBF369361E851A1400240453 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FBF369371E851A1400240453 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FBF369391E851C0D00240453 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		FBF3693A1E851C0D00240453 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				FBF369111E84D11F00240453 /* ViewController.h */,
 				FBF369121E84D11F00240453 /* ViewController.m */,
 				FBF369141E84D11F00240453 /* Main.storyboard */,
+				FBF369391E851C0D00240453 /* TableViewCell.h */,
+				FBF3693A1E851C0D00240453 /* TableViewCell.m */,
+				FBF369361E851A1400240453 /* TableViewController.h */,
+				FBF369371E851A1400240453 /* TableViewController.m */,
 				FBF369171E84D11F00240453 /* Assets.xcassets */,
 				FBF369191E84D11F00240453 /* LaunchScreen.storyboard */,
 				FBF3691C1E84D11F00240453 /* Info.plist */,
@@ -232,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF3692F1E84DB1000240453 /* ServerManager.m in Sources */,
+				FBF3693B1E851C0D00240453 /* TableViewCell.m in Sources */,
 				FBF369131E84D11F00240453 /* ViewController.m in Sources */,
 				FBF369101E84D11F00240453 /* AppDelegate.m in Sources */,
+				FBF369381E851A1400240453 /* TableViewController.m in Sources */,
 				FBF3690D1E84D11F00240453 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +407,7 @@
 				FBF369211E84D11F00240453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
